@@ -38,14 +38,6 @@ const TransScreen = () => {
     setPickmyModal(!pickymModal);
   };
 
-  const onSwipeLeft = () => {
-    monthHandler('increase');
-  };
-
-  const onSwipeRight = () => {
-    monthHandler('decrease');
-  };
-
   return (
     <View>
       <TobBar
@@ -58,7 +50,7 @@ const TransScreen = () => {
       />
       <SelectTime />
       <TransactionTop />
-      <TransantionList onSwipeLeft={onSwipeLeft} onSwipeRight={onSwipeRight} />
+      <TransantionList />
       {pickymModal && (
         <Text className="absolute inset-0" onPress={pickmyHandler}></Text>
       )}
