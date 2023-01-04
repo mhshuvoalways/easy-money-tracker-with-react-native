@@ -1,5 +1,6 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import MyText from '../../utils/MyText';
 
 const TransactionTop = () => {
   return (
@@ -7,16 +8,16 @@ const TransactionTop = () => {
       <View className="border-y border-gray-200">
         <View className="w-11/12 py-2 mx-auto flex-row justify-between items-center">
           <View>
-            <Text className="text-sm">Income</Text>
-            <Text className="text-green-500">1,34,456</Text>
+            <MyText className="text-sm">Income</MyText>
+            <MyText className="text-green-500">1,34,456</MyText>
           </View>
           <View>
-            <Text className="text-sm">Expenses</Text>
-            <Text className="text-red-500">1,34,456</Text>
+            <MyText className="text-sm">Expenses</MyText>
+            <MyText className="text-red-500">1,34,456</MyText>
           </View>
           <View>
-            <Text className="text-sm">Total</Text>
-            <Text>1,34,456</Text>
+            <MyText className="text-sm">Total</MyText>
+            <MyText>1,34,456</MyText>
           </View>
         </View>
       </View>

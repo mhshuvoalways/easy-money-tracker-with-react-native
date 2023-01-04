@@ -1,0 +1,4 @@
+text-black text-gray-100 text-gray-200 text-lg text-xl
+font-semibold font-bold
+praimary color - #40B5AD
+for input text-gray-500

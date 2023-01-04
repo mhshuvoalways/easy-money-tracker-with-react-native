@@ -1,15 +1,16 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import MyText from '../utils/MyText';
 
 const TopBarSelectTime = () => {
   return (
     <View className="bg-white shadow-sm">
       <View className="w-11/12 mx-auto py-2 flex-wrap flex-row justify-between items-center">
-        <Text style={{ color: '#40B5AD' }}>Daily</Text>
-        <Text>Calender</Text>
-        <Text>Weekly</Text>
-        <Text>Monthly</Text>
-        <Text>Total</Text>
+        <MyText style={{ color: '#40B5AD' }}>Daily</MyText>
+        <MyText>Calender</MyText>
+        <MyText>Weekly</MyText>
+        <MyText>Monthly</MyText>
+        <MyText>Total</MyText>
       </View>
     </View>
   );

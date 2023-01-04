@@ -1,0 +1,297 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Accounts",
+      "sub": []
+    },
+    {
+      "id": 2,
+      "name": "Cash",
+      "sub": []
+    },
+    {
+      "id": 3,
+      "name": "Card",
+      "sub": [
+        {
+          "id": 1,
+          "name": "DBBL"
+        },
+        {
+          "id": 2,
+          "name": "bKash"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Top-Up",
+      "sub": []
+    },
+    {
+      "id": 5,
+      "name": "Loan",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Bank"
+        },
+        {
+          "id": 2,
+          "name": "Loan"
+        }
+      ]
+    }
+  ],
+  "incomeCategory": [
+    {
+      "id": 1,
+      "name": "Allowance",
+      "sub": []
+    },
+    {
+      "id": 2,
+      "name": "Salary",
+      "sub": []
+    },
+    {
+      "id": 3,
+      "name": "Petty Cash",
+      "sub": []
+    },
+    {
+      "id": 4,
+      "name": "Bonus",
+      "sub": []
+    },
+    {
+      "id": 5,
+      "name": "Other",
+      "sub": []
+    }
+  ],
+  "expenseCategory": [
+    {
+      "id": 1,
+      "name": "Food",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Lunch"
+        },
+        {
+          "id": 2,
+          "name": "Dinner"
+        },
+        {
+          "id": 3,
+          "name": "Eathign Out"
+        },
+        {
+          "id": 4,
+          "name": "Beverages"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Social Life",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Friend"
+        },
+        {
+          "id": 2,
+          "name": "Fellowship"
+        },
+        {
+          "id": 3,
+          "name": "Alumni"
+        },
+        {
+          "id": 4,
+          "name": "Dues"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Self-development",
+      "sub": []
+    },
+    {
+      "id": 4,
+      "name": "Transportation",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Bus"
+        },
+        {
+          "id": 2,
+          "name": "Subway"
+        },
+        {
+          "id": 3,
+          "name": "Taxi"
+        },
+        {
+          "id": 4,
+          "name": "Car"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Culture",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Books"
+        },
+        {
+          "id": 2,
+          "name": "Movie"
+        },
+        {
+          "id": 3,
+          "name": "Music"
+        },
+        {
+          "id": 4,
+          "name": "Apps"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Household",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Appliances"
+        },
+        {
+          "id": 2,
+          "name": "Furniture"
+        },
+        {
+          "id": 3,
+          "name": "Kitchen"
+        },
+        {
+          "id": 4,
+          "name": "Toiletries"
+        },
+        {
+          "id": 5,
+          "name": "Chandlery"
+        },
+        {
+          "id": 6,
+          "name": "Toiletries"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Health"
+        },
+        {
+          "id": 2,
+          "name": "Yoga"
+        },
+        {
+          "id": 3,
+          "name": "Hospital"
+        },
+        {
+          "id": 4,
+          "name": "Medicine"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Education",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Schooling"
+        },
+        {
+          "id": 2,
+          "name": "Textbook"
+        },
+        {
+          "id": 3,
+          "name": "School Supplies"
+        },
+        {
+          "id": 4,
+          "name": "Academy"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Beauty",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Cosmetics"
+        },
+        {
+          "id": 2,
+          "name": "Mackup"
+        },
+        {
+          "id": 3,
+          "name": "Accessories"
+        },
+        {
+          "id": 4,
+          "name": "Beauty"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Apparel",
+      "sub": [
+        {
+          "id": 1,
+          "name": "Clothing"
+        },
+        {
+          "id": 2,
+          "name": "Fashion"
+        },
+        {
+          "id": 3,
+          "name": "Shoes"
+        },
+        {
+          "id": 4,
+          "name": "Laundry"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Gift",
+      "sub": []
+    },
+    {
+      "id": 12,
+      "name": "Other",
+      "sub": []
+    }
+  ]
+}

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { Text, View } from 'react-native';
 import TobBar from '../components/TopHeader/TobBar';
 import SelectTime from '../components/TopHeader/SelectTime';
-import TransactionTop from '../components/Transactions/TransactionTop';
-import TransantionList from '../components/Transactions/TransantionList';
+import TransactionTop from '../components/Transactions/List/TransactionTop';
+import TransantionList from '../components/Transactions/List/TransantionList';
+import AddBtn from '../components/Transactions/TransAdd/AddBtn';
 
 const TransScreen = () => {
   const [pickymModal, setPickmyModal] = useState(false);
@@ -51,8 +52,9 @@ const TransScreen = () => {
       <SelectTime />
       <TransactionTop />
       <TransantionList />
+      <AddBtn />
       {pickymModal && (
-        <Text className="absolute inset-0" onPress={pickmyHandler}></Text>
+        <Text className="absolute inset-0 h-screen" onPress={pickmyHandler}></Text>
       )}
     </View>
   );

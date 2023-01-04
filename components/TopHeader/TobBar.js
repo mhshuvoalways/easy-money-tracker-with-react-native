@@ -1,10 +1,12 @@
 import React from 'react';
-import { Text, View, TouchableOpacity } from 'react-native';
+import { View, TouchableOpacity } from 'react-native';
+import MyText from '../utils/MyText';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import Octicons from 'react-native-vector-icons/Octicons';
+import Feather from 'react-native-vector-icons/Feather';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import { Motion } from '@legendapp/motion';
 import PickYearMonth from './PickYearMonth';
+import Style from '../../assets/style/styles';
 
 const TobBar = ({
   pickymModal,
@@ -33,28 +35,38 @@ const TobBar = ({
   return (
     <View>
       <View className="bg-white shadow-sm">
-        <View className="w-11/12 mx-auto py-3">
+        <View className="w-11/12 mx-auto py-2">
           <View className="flex-row justify-between items-center">
             <View className="flex-row items-center gap-2 justify-between">
               <TouchableOpacity onPress={() => monthHandler('decrease')}>
-                <SimpleLineIcons name="arrow-left" size={18} />
+                <SimpleLineIcons
+                  name="arrow-left"
+                  size={15}
+                  color={Style.textColor}
+                />
               </TouchableOpacity>
               <TouchableOpacity>
-                <Text className="text-lg capitalize" onPress={pickmyHandler}>
+                <MyText
+                  className="font-semibold text-base capitalize"
+                  onPress={pickmyHandler}>
                   {`${months[monthEffect]} ${yearEffect}`}
-                </Text>
+                </MyText>
               </TouchableOpacity>
               <TouchableOpacity onPress={() => monthHandler('increase')}>
-                <SimpleLineIcons name="arrow-right" size={18} />
+                <SimpleLineIcons
+                  name="arrow-right"
+                  size={15}
+                  color={Style.textColor}
+                />
               </TouchableOpacity>
             </View>
             <View>
-              <Text className="font-bold">Balance</Text>
-              <Text className="text-green-500">1,34,450</Text>
+              <MyText>Balance</MyText>
+              <MyText className="text-green-500">1,34,450</MyText>
             </View>
             <View className="flex-row justify-between items-center gap-5">
-              <AntDesign name="search1" size={20} />
-              <Octicons name="filter" size={20} />
+              <AntDesign name="search1" size={20} color={Style.textColor} />
+              <Feather name="bookmark" size={20} color={Style.textColor} />
             </View>
           </View>
         </View>
